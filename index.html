@@ -11,8 +11,8 @@
       <div class="radio-wrapper">
         <input class="input" name="btn" id="value-1" type="radio">
         <div class="btn">
-        <a href="https://tayseer2005.github.io/cc/">  <span aria-hidden=""></span>DRINKS </a>
-          <span class="btn__glitch" aria-hidden="">DRINKS</span>
+        <a href="https://tayseer2005.github.io/cc/">  <span aria-hidden=""></span>DRINKS 
+          <span class="btn__glitch" aria-hidden="">DRINKS</span></a>
           <label class="number">r1</label>
         </div>
       </div>
@@ -413,6 +413,28 @@
   line-height: 6.2px;
 }
         }
+        .radio-wrapper {
+  position: relative;
+}
+
+.input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+  opacity: 0; /* احتفظ بها هنا للتأكد من أن `<input>` لا يغطي الروابط */
+  z-index: 1; /* إعطاء `<input>` z-index منخفض */
+}
+
+.btn a {
+  z-index: 2; /* إعطاء `<a>` z-index أعلى */
+  position: relative; /* لجعل الرابط يظهر فوق `<input>` */
+  text-decoration: none;
+  color: white;
+}
+
+
     </style>
 </body>
 </html>
