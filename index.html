@@ -4,90 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Cause</title>
-</head>
-<body>
-    
-    <div class="container">
-      <div class="radio-wrapper">
-        <input class="input" name="btn" id="value-1" type="radio">
-        <div class="btn">
-        <a href="https://tayseer2005.github.io/cc/">  <span aria-hidden=""></span>DRINKS </a>
-          <span class="btn__glitch" aria-hidden="">DRINKS</span>
-          <label class="number">r1</label>
-        </div>
-      </div>
-      <div class="radio-wrapper">
-        <input class="input" name="btn" id="value-2" checked="true" type="radio">
-        <div class="btn"> <a href="https://tayseer2005.github.io/ff/">
-            SANDWICH<span aria-hidden="">_</span></a>
-          <span class="btn__glitch" aria-hidden="">_R_a_d_i_o_</span>
-          <label class="number">r2</label>
-        </div>
-      </div>
-      <div class="radio-wrapper">
-        <input class="input" name="btn" id="value-3" type="radio">
-        <div class="btn"><a href="https://tayseer2005.github.io/ii/">HOME
-          <span aria-hidden=""></span></a>
-          <span class="btn__glitch" aria-hidden="">Buttons_</span>
-          <label class="number">r3</label>
-        </div> 
-      </div>
-    </div>
-    
-    
-    <header>
-        <h1>The Cause</h1>
-    </header>
-    <main>
-        <section class="menu">
-            <h2 style="color: #ffffff;">Hot Drinks non-coffee</h2>
-            <ul>
-                <li>Matcha <span class="price">3.75JD</span></li>
-                <li>Hot Chocolate <span class="price">3.75JD</span></li>
-                <li>Chai Tea Spice <span class="price">3.75JD</span></li>
-                <li>Tea <span class="price">3.75JD</span></li>
-            </ul>
-        </section>
-
-        <!-- قائمة المشروبات الساخنة بدون قهوة -->
-        <section class="non-coffee-hot-drinks">
-            <h2 style="color: #ffffff;">Hot Drinks (Without Coffee)</h2>
-            <ul>
-                <li>American Coffee <span class="price">2.75JD</span></li>
-                <li>Latte <span class="price">3.75JD</span></li>
-                <li>Cappuccino <span class="price">3.75JD</span></li>
-                <li>Espresso <span class="price">2.25JD</span></li>
-            </ul>
-        </section>
-    </main>
     <style>
         /* تنسيق عام للصفحة */
-        .navbar {
-            width: 100%;
-            background-color: #333;
-            color: white;
-            display: flex;
-            justify-content: center;
-            padding: 5px 0;
-            z-index: 2;
-            position: fixed;
-            top: 0;
-            left: 0;
-        }
-
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            margin: 0 20px;
-            font-size: 1.5em;
-            text-transform: uppercase;
-            transition: color 0.3s;
-        }
-
-        .navbar a:hover {
-            color: #3498db;
-        }
-
         * {
             margin: 0;
             padding: 0;
@@ -99,15 +17,15 @@
             background-color: #f3f4f6;
             color: #333;
             line-height: 1.6;
-            background-image: url('https://i.top4top.io/p_3238whj8t1.jpeg');
-            background-size: cover; /* يجعل الصورة تغطي كامل الشاشة */
-            background-position: center; /* توسيط الصورة في الصفحة */
-            background-attachment: fixed; /* يجعل الخلفية ثابتة عند التمرير */
+            background-image: url('https://d.top4top.io/p_3238v7les0.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             opacity: 0.9;
         }
 
         header {
-            background-color: #70667a;
+            background-color:  #81826f;
             color: #ecf0f1;
             text-align: center;
             padding: 40px 20px;
@@ -117,13 +35,6 @@
         header h1 {
             font-size: 3em;
             margin-bottom: 10px;
-            background-color:  #70667a;
-        }
-
-        header p {
-            font-size: 1.5em;
-            color: #bdc3c7;
-            background-color:  #70667a;
         }
 
         main {
@@ -132,23 +43,18 @@
         }
 
         section {
-            background-color: rgba(112, 102, 122, 0.8); /* شفافية للخلفية */
+            background-color: #81826f;
             border-radius: 12px;
             padding: 30px;
             margin: 20px 0;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        section:hover {
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-            transform: scale(1.03);
-        }
-
         h2 {
             font-size: 2em;
             margin-bottom: 15px;
             color: #fff6f6;
-            background-color:  #747177;
+            background-color: #81826f;
         }
 
         ul {
@@ -157,7 +63,7 @@
         }
 
         li {
-            font-size: 1.5em;  /* تم تكبير النص */
+            font-size: 1.5em;
             padding: 10px 0;
             border-bottom: 1px solid #ddd;
             display: flex;
@@ -176,245 +82,161 @@
 
         .price {
             color: #000000;
-            font-size: 1.5em;  /* تم تكبير السعر */
+            font-size: 1.5em;
             font-weight: bold;
         }
 
-        .non-coffee-hot-drinks {
-            background-color: rgba(92, 74, 111, 0.8); /* إضافة الشفافية */
-            padding: 30px;
-            border-radius: 12px;
-            margin-top: 30px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            color: #f8f3f3;
-        }
-
-        .non-coffee-hot-drinks h2:hover {
-            color: #1d4c6b;
+        .btn {
+            position: relative;
+            background-color: #0e0f34;
+            color: white;
+            text-transform: uppercase;
+            font-size: 9px;
+            letter-spacing: 3px;
+            font-weight: 900;
+            width: 100%;
+            height: 100%;
+            line-height: 38px;
+            text-align: center;
+            transition: background 0.2s;
             cursor: pointer;
         }
 
-        /* تخصيص التصميم لشاشات الجوال */
-        @media (max-width: 768px) {
-         /* From Uiverse.io by andrew-demchenk0 */ 
-.container {
-  display: flex;
-  flex-direction: row;
-}
-
-.radio-wrapper {
-  position: relative;
-  height: 38px;
-  width: 84px;
-  margin: 3px;
-}
-
-.radio-wrapper .input {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  cursor: pointer;
-  z-index: 10;
-  opacity: 0;
-}
-
-.btn {
-  --primary: #0e0f34;
-  --shadow-primary: #0e0f34;
-  --color: white;
-  --font-size: 9px;
-  --shadow-primary-hue: 180;
-  --shadow-secondary-hue: 60;
-  --shadow-secondary: hsl(var(--shadow-secondary-hue), 90%, 60%);
-  --clip: polygon(11% 0, 95% 0, 100% 25%, 90% 90%, 95% 90%, 85% 90%, 85% 100%, 7% 100%, 0 80%);
-  --border: 5px;
-  --shimmy-distance: 5;
-  --clip-one: polygon(0 2%, 100% 2%, 100% 95%, 95% 95%, 95% 90%, 85% 90%, 85% 95%, 8% 95%, 0 70%);
-  --clip-two: polygon(0 78%, 100% 78%, 100% 100%, 95% 100%, 95% 90%, 85% 90%, 85% 100%, 8% 100%, 0 78%);
-  --clip-three: polygon(0 44%, 100% 44%, 100% 54%, 95% 54%, 95% 54%, 85% 54%, 85% 54%, 8% 54%, 0 54%);
-  --clip-four: polygon(0 0, 100% 0, 100% 0, 95% 0, 95% 0, 85% 0, 85% 0, 8% 0, 0 0);
-  --clip-five: polygon(0 0, 100% 0, 100% 0, 95% 0, 95% 0, 85% 0, 85% 0, 8% 0, 0 0);
-  --clip-six: polygon(0 40%, 100% 40%, 100% 85%, 95% 85%, 95% 85%, 85% 85%, 85% 85%, 8% 85%, 0 70%);
-  --clip-seven: polygon(0 63%, 100% 63%, 100% 80%, 95% 80%, 95% 80%, 85% 80%, 85% 80%, 8% 80%, 0 70%);
-  color: var(--color);
-  text-transform: uppercase;
-  font-size: var(--font-size);
-  letter-spacing: 3px;
-  position: relative;
-  font-weight: 900;
-  width: 100%;
-  height: 100%;
-  line-height: 38px;
-  text-align: center;
-  transition: background 0.2s, 0.3s;
-}
-
-.input:checked + .btn {
-  --primary: #0e0f34;
-  --shadow-primary: #0e0f34;
-}
-
-.input:hover + .btn {
-  --primary: #676855;
-  --font-size: 11px;
-}
-
-.btn:after, .btn:before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  clip-path: var(--clip);
-  z-index: -1;
-}
-
-.btn:before {
-  background: var(--shadow-primary);
-  transform: translate(var(--border), 0);
-}
-
-.btn:after {
-  background: var(--primary);
-}
-
-.btn__tag {
-  position: absolute;
-  padding: 1px 4px;
-  letter-spacing: 1px;
-  line-height: 1;
-  bottom: -5%;
-  right: 5%;
-  font-weight: normal;
-  color: hsl(0, 0%, 0%);
-  font-size: var(--label-size);
-}
-
-.btn__glitch {
-  position: absolute;
-  top: calc(var(--border) * -1);
-  left: calc(var(--border) * -1);
-  right: calc(var(--border) * -1);
-  bottom: calc(var(--border) * -1);
-  background: var(--shadow-primary);
-  text-shadow: 2px 2px var(--shadow-primary), -2px -2px var(--shadow-secondary);
-  clip-path: var(--clip);
-  animation: glitch 2s infinite;
-  display: none;
-}
-
-.input:hover + .btn .btn__glitch {
-  display: block;
-}
-
-.input:checked + .btn .btn__glitch {
-  display: block;
-  animation: glitch 5s infinite;
-}
-
-.btn__glitch:before {
-  content: '';
-  position: absolute;
-  top: calc(var(--border) * 1);
-  right: calc(var(--border) * 1);
-  bottom: calc(var(--border) * 1);
-  left: calc(var(--border) * 1);
-  clip-path: var(--clip);
-  background: var(--primary);
-  z-index: -1;
-}
-
-@keyframes glitch {
-  0% {
-    clip-path: var(--clip-one);
-  }
-
-  2%, 8% {
-    clip-path: var(--clip-two);
-    transform: translate(calc(var(--shimmy-distance) * -1%), 0);
-  }
-
-  6% {
-    clip-path: var(--clip-two);
-    transform: translate(calc(var(--shimmy-distance) * 1%), 0);
-  }
-
-  9% {
-    clip-path: var(--clip-two);
-    transform: translate(0, 0);
-  }
-
-  10% {
-    clip-path: var(--clip-three);
-    transform: translate(calc(var(--shimmy-distance) * 1%), 0);
-  }
-
-  13% {
-    clip-path: var(--clip-three);
-    transform: translate(0, 0);
-  }
-
-  14%, 21% {
-    clip-path: var(--clip-four);
-    transform: translate(calc(var(--shimmy-distance) * 1%), 0);
-  }
-
-  25% {
-    clip-path: var(--clip-five);
-    transform: translate(calc(var(--shimmy-distance) * 1%), 0);
-  }
-
-  30% {
-    clip-path: var(--clip-five);
-    transform: translate(calc(var(--shimmy-distance) * -1%), 0);
-  }
-
-  35%, 45% {
-    clip-path: var(--clip-six);
-    transform: translate(calc(var(--shimmy-distance) * -1%));
-  }
-
-  40% {
-    clip-path: var(--clip-six);
-    transform: translate(calc(var(--shimmy-distance) * 1%));
-  }
-
-  50% {
-    clip-path: var(--clip-six);
-    transform: translate(0, 0);
-  }
-
-  55% {
-    clip-path: var(--clip-seven);
-    transform: translate(calc(var(--shimmy-distance) * 1%), 0);
-  }
-
-  60% {
-    clip-path: var(--clip-seven);
-    transform: translate(0, 0);
-  }
-
-  31%, 61%, 100% {
-    clip-path: var(--clip-four);
-  }
-}
-
-.number {
-  background: var(--shadow-primary);
-  color: #323232;
-  font-size: 5.5px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  position: absolute;
-  width: 15px;
-  height: 6px;
-  top: 0;
-  left: 81%;
-  line-height: 6.2px;
-}
+        .btn a {
+            color: white;
+            text-decoration: none;
+            position: relative;
+            z-index: 2;
+            display: block;
+            height: 100%;
         }
+
+        .input {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            cursor: pointer;
+            z-index: 10;
+            opacity: 0;
+        }
+
+        .input:checked + .btn {
+            background-color:  #0e0f34;
+        }
+
+        .radio-wrapper {
+            position: relative;
+            height: 38px;
+            width: 84px;
+            margin: 3px;
+        }
+
+        .radio-wrapper .input {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            cursor: pointer;
+            z-index: 10;
+            opacity: 0;
+        }
+
+        .number {
+            background: #040c34;
+            color: #323232;
+            font-size: 5.5px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            position: absolute;
+            width: 15px;
+            height: 6px;
+            top: 0;
+            left: 81%;
+            line-height: 6.2px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                display: flex;
+                flex-direction: row;
+            }
+
+            .radio-wrapper {
+                position: relative;
+                height: 38px;
+                width: 84px;
+                margin: 3px;
+            }
+
+            .radio-wrapper .input {
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                margin: 0;
+                cursor: pointer;
+                z-index: 10;
+                opacity: 0;
+            }
+
+            .btn {
+                font-size: 11px;
+            }
+        }
+
     </style>
+</head>
+<body>
+    
+    <div class="container">
+      <div class="radio-wrapper">
+        <input class="input" name="btn" id="value-1" type="radio">
+        <div class="btn">
+          <a href="https://tayseer2005.github.io/cc/" target="_blank">DRINKS</a>
+          <label class="number">r1</label>
+        </div>
+      </div>
+      <div class="radio-wrapper">
+        <input class="input" name="btn" id="value-2" checked="true" type="radio">
+        <div class="btn">
+          <a href="https://tayseer2005.github.io/ff/" target="_blank">SANDWICH</a>
+          <label class="number">r2</label>
+        </div>
+      </div>
+      <div class="radio-wrapper">
+        <input class="input" name="btn" id="value-3" type="radio">
+        <div class="btn">
+          <a href="https://tayseer2005.github.io/ii/" target="_blank">HOME</a>
+          <label class="number">r3</label>
+        </div>
+      </div>
+    </div>
+    
+    <header style=" margin-top: -px;" >
+      <h1 style="font-size: 1.5em;color: #000000;">The Cause</h1>
+     
+  </header>
+    <main>
+        <section class="menu">
+            <h2 style="color: #000000;">Hot Drinks non-coffee</h2>
+            <ul>
+                <li>Matcha <span class="price">3.75JD</span></li>
+                <li>Hot Chocolate <span class="price">3.75JD</span></li>
+                <li>Chai Tea Spice <span class="price">3.75JD</span></li>
+                <li>Tea <span class="price">3.75JD</span></li>
+            </ul>
+        </section>
+
+        <section class="non-coffee-hot-drinks">
+            <h2 style="color: #020202;">Hot Drinks (Without Coffee)</h2>
+            <ul>
+                <li>American Coffee <span class="price">2.75JD</span></li>
+                <li>Latte <span class="price">3.75JD</span></li>
+                <li>Cappuccino <span class="price">3.75JD</span></li>
+                <li>Espresso <span class="price">2.25JD</span></li>
+            </ul>
+        </section>
+    </main>
+
 </body>
 </html>
