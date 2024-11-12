@@ -7,6 +7,11 @@
     
 </head>
 <body>
+    <div class="navbar">
+        <a href="https://tayseer2005.github.io/cc/">DRINK</a>
+        <a href="https://tayseer2005.github.io/ff/">SANDWICH</a>
+        <a href="#sweet">SWEET</a>
+    </div>
     <header>
         <h1>The Cause</h1>
         <p>Enjoy a peaceful atmosphere with delicious food and drinks to help you focus.</p>
@@ -35,13 +40,39 @@
     </main>
     <style>
         /* تنسيق عام للصفحة */
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
+        .navbar {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0; /* تعديل الحافة لتصغير المسافة */
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #3498db;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
 
         body {
             background-color: #f3f4f6; /* خلفية فاتحة */
@@ -138,7 +169,7 @@
 
         /* تنسيق الأسعار */
         .price {
-            color: #153523;
+            color: #0e311d;
             font-size: 1.2em;
             font-weight: bold;
         }
