@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Cause</title>
-    
 </head>
 <body>
     <div class="navbar">
+        <a href="https://tayseer2005.github.io/ii/">HOME</a>
         <a href="https://tayseer2005.github.io/cc/">DRINK</a>
         <a href="https://tayseer2005.github.io/ff/">SANDWICH</a>
         <a href="#sweet">SWEET</a>
     </div>
     <header>
         <h1>The Cause</h1>
-        <p>Enjoy a peaceful atmosphere with delicious food and drinks to help you focus.</p>
     </header>
     <main>
         <section class="menu">
@@ -41,96 +40,84 @@
     <style>
         /* تنسيق عام للصفحة */
         .navbar {
-    width: 100%;
-    background-color: #333;
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 5px 0; /* تعديل الحافة لتصغير المسافة */
-    z-index: 2;
-    position: fixed;
-    top: 0;
-    left: 0;
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    margin: 0 20px;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    transition: color 0.3s;
-}
-
-.navbar a:hover {
-    color: #3498db;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-
-        body {
-            background-color: #f3f4f6; /* خلفية فاتحة */
-            color: #333; /* نص باللون الداكن */
-            line-height: 1.6;
-            background-image: url('https://k.top4top.io/p_3237lqanf1.jpeg');
-    background-size: cover; /* تجعل الخلفية تغطي كامل الشاشة */
-    background-position: center; /* تجعل الصورة في منتصف الصفحة */
-    background-repeat: no-repeat;
-    opacity: 0.9;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            padding: 5px 0;
+            z-index: 2;
+            position: fixed;
+            top: 0;
+            left: 0;
         }
 
-        /* تنسيق العنوان الرئيسي */
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 1.5em;
+            text-transform: uppercase;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #3498db;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f3f4f6;
+            color: #333;
+            line-height: 1.6;
+            background-image: url('https://i.top4top.io/p_3238whj8t1.jpeg');
+            background-size: cover; /* يجعل الصورة تغطي كامل الشاشة */
+            background-position: center; /* توسيط الصورة في الصفحة */
+            background-attachment: fixed; /* يجعل الخلفية ثابتة عند التمرير */
+            opacity: 0.9;
+        }
+
         header {
             background-color: #70667a;
-            
             color: #ecf0f1;
             text-align: center;
             padding: 40px 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-         
         }
 
-        /* تنسيق العنوان */
         header h1 {
             font-size: 3em;
             margin-bottom: 10px;
             background-color:  #70667a;
-         
         }
 
-        /* تنسيق الفقرات */
         header p {
             font-size: 1.5em;
             color: #bdc3c7;
             background-color:  #70667a;
-            
         }
 
-        /* تنسيق القسمين: قائمة الطعام والمشروبات */
         main {
             padding: 40px 20px;
         }
 
-        /* تنسيق القوائم */
         section {
-            background-color: #fff;
+            background-color: rgba(112, 102, 122, 0.8); /* شفافية للخلفية */
             border-radius: 12px;
             padding: 30px;
             margin: 20px 0;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            background-color:  #70667a;
         }
 
-        /* تأثير hover على الأقسام عند المرور بالماوس */
         section:hover {
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* تغيير الظل عند المرور بالماوس */
-            transform: scale(1.03); /* تكبير قليلاً عند المرور بالماوس */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transform: scale(1.03);
         }
 
         h2 {
@@ -138,17 +125,15 @@
             margin-bottom: 15px;
             color: #333;
             background-color:  #70667a;
-            
         }
 
-        /* تنسيق قائمة الطعام والمشروبات */
         ul {
             list-style-type: none;
             padding: 0;
         }
 
         li {
-            font-size: 1.2em;
+            font-size: 1.5em;  /* تم تكبير النص */
             padding: 10px 0;
             border-bottom: 1px solid #ddd;
             display: flex;
@@ -156,37 +141,70 @@
             align-items: center;
         }
 
-        /* إزالة الحد السفلي عن آخر عنصر في القائمة */
         li:last-child {
             border-bottom: none;
         }
 
-        /* تأثير hover على العناصر عند المرور بالماوس */
         li:hover {
             background-color: #ecf0f1;
             cursor: pointer;
         }
 
-        /* تنسيق الأسعار */
         .price {
             color: #0e311d;
-            font-size: 1.2em;
+            font-size: 1.5em;  /* تم تكبير السعر */
             font-weight: bold;
         }
 
-        /* تنسيق قائمة المشروبات الساخنة بدون قهوة */
         .non-coffee-hot-drinks {
-            background-color:  #70667a;
+            background-color: rgba(112, 102, 122, 0.8); /* إضافة الشفافية */
             padding: 30px;
             border-radius: 12px;
             margin-top: 30px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
 
-        /* تأثير hover على كل العناصر */
         .non-coffee-hot-drinks h2:hover {
-            color: #1d4c6b; /* تغيير اللون عند المرور بالماوس */
+            color: #1d4c6b;
             cursor: pointer;
+        }
+
+        /* تخصيص التصميم لشاشات الجوال */
+        @media (max-width: 768px) {
+            .navbar a {
+                font-size: 1.2em;
+                margin: 0 10px;
+            }
+
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            header p {
+                font-size: 1.2em;
+            }
+
+            section h2 {
+                font-size: 1.8em;
+            }
+
+            li {
+                font-size: 1.4em;
+            }
+
+            .price {
+                font-size: 1.4em;
+            }
+
+            .navbar {
+                flex-direction: column;
+                align-items: center;
+                padding: 10px 0;
+            }
+
+            .navbar a {
+                margin: 5px 0;
+            }
         }
     </style>
 </body>
